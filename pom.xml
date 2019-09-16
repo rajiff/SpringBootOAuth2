@@ -8,14 +8,15 @@
   <name>Spring Boot OAuth2</name>
   
   <properties>
-       <maven.compiler.source>1.8</maven.compiler.source>
-       <maven.compiler.target>1.8</maven.compiler.target>
+       <!-- <maven.compiler.source>12</maven.compiler.source>
+       <maven.compiler.target>12</maven.compiler.target> -->
+       <java.version>12</java.version>
   </properties>
 	
 	<parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.0.RELEASE</version>
+        <version>2.1.8.RELEASE</version>
 	</parent>
   
   <dependencies>
